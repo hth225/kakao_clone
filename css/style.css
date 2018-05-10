@@ -87,15 +87,16 @@ body{
 	display: flex;
 	margin-top: 3px;
 	justify-content: center;
-	
+	padding-top: 2px;
 	border-radius: 50%;
 	font-weight: 600;
+	box-sizing: border-box;
 
 	
 }
 
 .chat__number {
-
+	
 }
 
 .footer {
