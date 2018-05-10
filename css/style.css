@@ -44,13 +44,16 @@ body{
 	
  }
 
- .chat__avatar{
+
+ .chat__avatar {
  	width: 50px;
  	height: 50px;
  	border-radius: 50%;
+
  }
 
 .chat__text {
+	
 	flex-grow: 2;
 	margin-left: 20px;
 
@@ -61,11 +64,38 @@ body{
 	display: block;
 
 }
+.chat__preview {
+	
+	color: rgba(0, 0, 0, 0.5);
+}
 
 
 .chat__date {
 	color: rgba(0, 0, 0, 0.5);
 	font-size: 10px;
+	
+
+}
+
+.message-num {
+	margin-left: 8px;
+	width: 17px;
+	height: 17px;
+	background-color: #D85353;
+	font-size: 11px;
+	color: white;
+	display: flex;
+	margin-top: 3px;
+	justify-content: center;
+	
+	border-radius: 50%;
+	font-weight: 600;
+
+	
+}
+
+.chat__number {
+
 }
 
 .footer {
@@ -91,6 +121,11 @@ body{
 .footer__text {
 	margin-top: 5px;
 	font-size: 10px;
+
+}
+
+.footer__icon--selected {
+	color: #523638;
 }
 
 .action-btn {
